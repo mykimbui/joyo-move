@@ -1,17 +1,17 @@
 (function() {
   var ALPHA, AudioAnalyser, COLORS, DIRECTION, MP3_PATH, NUM_BANDS, NUM_PARTICLES, Particle, RADIUS, SCALE, SIZE, SMOOTHING, SPEED, SPIN;
 
-  NUM_PARTICLES = 150;
+  NUM_PARTICLES = 100;
 
-  NUM_BANDS = 128;
+  NUM_BANDS = 90;
 
   SMOOTHING = 0.5;
 
   MP3_PATH = 'https://api.soundcloud.com/tracks/42328219/stream?client_id=b1495e39071bd7081a74093816f77ddb';
 
   SCALE = {
-    MIN: 5.0,
-    MAX: 20.0
+    MIN: 10.0,
+    MAX: 15.0
   };
 
   SPEED = {
@@ -30,13 +30,13 @@
   };
 
   SIZE = {
-    MIN: 0.5,
-    MAX: 1.25
+    MIN: 2,
+    MAX: 2.25
   };
 
   RADIUS = {
-    MIN: 0.3,
-    MAX: 0.5
+    MIN: 1,
+    MAX: 1.5
   };
 
   DIRECTION = {
